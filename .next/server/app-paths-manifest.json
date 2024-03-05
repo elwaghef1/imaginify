@@ -1,5 +1,7 @@
 {
   "/page": "app/page.js",
+  "/(root)/profile/page": "app/(root)/profile/page.js",
   "/(root)/transformations/add/[type]/page": "app/(root)/transformations/add/[type]/page.js",
-  "/(root)/profile/page": "app/(root)/profile/page.js"
+  "/(auth)/sign-in/[[...sign-in]]/page": "app/(auth)/sign-in/[[...sign-in]]/page.js",
+  "/(auth)/sign-up/[[...sign-up]]/page": "app/(auth)/sign-up/[[...sign-up]]/page.js"
 }
